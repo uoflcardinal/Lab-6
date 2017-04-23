@@ -12,8 +12,8 @@ namespace Lab_6
         {
             //Declaration of variables and methods:
             string input = ValidInput();
-            string[] statement = Split(input);
-            PigLatinTranslation(statement);
+            string[] characters = Split(input);
+            PigLatinTranslation(characters);
         }
         public static string ValidInput()
         {
